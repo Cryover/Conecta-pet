@@ -12,9 +12,14 @@ export const Ul = styled.ul`
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  padding: 20px;
+  padding: 10px;
 `;
 
-export const Li = styled.li``;
+export const Li = styled.li`
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+`;
 
 export const A = styled.a``;
